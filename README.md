@@ -57,13 +57,12 @@ You will then see Terraform output an IP address, which you can paste into your 
 ##Cleanup
 
 To avoid unecessary AWS charges, run:
-
 ```bash
 terraform destroy
 ```
 
 ## Conclusion
 
-This project demonstrates the basics of Infrastructure as Code with Terraform.  
+This project demonstrates the basics of Infrastructure as Code with Terraform. 
 It provisions a simple but functional web server on AWS, secured by a security group and automatically configured with Nginx.  
 The same approach can be extended to manage more complex infrastructure in a repeatable, reliable way.
